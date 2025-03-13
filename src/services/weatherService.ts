@@ -1,4 +1,5 @@
-import { faker } from "@faker-js/faker";
+import { faker, HelpersModule } from "@faker-js/faker";
+import{storeweatherData} from 
  export const generateLondonWeatherData = (): WeatherData => {
  const generatedWeatherData = {
  city:generateLondonWeatherData,
