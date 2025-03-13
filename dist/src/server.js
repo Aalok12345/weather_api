@@ -9,7 +9,7 @@ const app = (0, express_1.default)();
 const PORT = 3000;
 app.use(express_1.default.json());
 //our new route
-app.use("/api/weather", weatherRoutes_js_1.default);
+app.use('/api/weather', weatherRoutes_js_1.default);
 // Start the express server
 app.listen(PORT, () => {
     console.log(`Server is listening on port ${PORT}`);
