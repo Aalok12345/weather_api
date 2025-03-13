@@ -4,7 +4,7 @@ exports.generateDublinWeatherData = exports.generateLondonWeatherData = void 0;
 const faker_1 = require("@faker-js/faker");
 const generateLondonWeatherData = () => {
     const generatedWeatherData = {
-        city: exports.generateLondonWeatherData,
+        city: "London",
         temperature: faker_1.faker.number.int({ min: -15, max: 30 }),
         humidity: faker_1.faker.number.int({ min: 79, max: 86 }),
         wind: faker_1.faker.number.int({ min: 2, max: 78 }),
